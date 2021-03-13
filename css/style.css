@@ -4,7 +4,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	font-size: 2vh;
-	line-height: 1.6;
+	line-height: 2vh;
 }
 
 a{
@@ -49,6 +49,19 @@ a{
 	border: 2px solid #ed008c;
 	border-radius: 0px;
 	line-height: 3.61991vh;
+}
+
+.menu-elem:hover::after {
+	content: attr(data-title);
+    z-index: 1;
+    display: block;
+    width: 19.607843137254903vh;
+    margin-top: -3.167420814479638vh;
+    margin-left: 4.97737556561086vh;
+    background: rgb(0 0 0 / 66%);
+    padding: 0.7541478129713424vh 1.5082956259426847vh;
+    border-radius: 1.5082956259426847vh;
+    line-height: 2.5vh;
 }
 
 /*end Menu*/
