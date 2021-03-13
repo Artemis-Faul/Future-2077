@@ -121,6 +121,45 @@ a{
 	font-size: 3.3182503770739067vh;
 }
 
+.scroll-container::-webkit-scrollbar { width: 0; }
+
+.scroll-lable{
+	margin-top: 4vh;
+	margin-left: 18vh;
+	color: white;
+}
+
+.scroll-container{
+	margin-top: 1vh;
+	overflow-y: scroll;
+	height: 50vh;
+	width: 48vh;
+	margin-left: 17vh;
+	color: white;
+}
+
+.slider-block{
+	margin-top: 1vh;
+	display: block;
+	width: 30vh;
+	height: 10vh;
+	background-color: rgba(255, 255, 255, 0.9);
+	border-radius: 0.9vh;
+	padding: 1vh;
+	color: black;
+}
+
+.slider-lable{
+	display: block;
+	position: relative;
+	float: right;
+}
+
+.image-slider-block{
+	width: 15vh;
+	border-radius: 0.8vh;
+}
+
 @media screen and (max-device-width: 1000px) {
     .bg-text{
 	    display: inline-block;
