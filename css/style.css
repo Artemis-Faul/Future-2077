@@ -127,6 +127,7 @@ a{
 	margin-top: 4vh;
 	margin-left: 18vh;
 	color: white;
+	font-size: 3vh;
 }
 
 .scroll-container{
@@ -141,23 +142,47 @@ a{
 .slider-block{
 	margin-top: 1vh;
 	display: block;
-	width: 30vh;
+	width: 40vh;
 	height: 10vh;
-	background-color: rgba(255, 255, 255, 0.9);
+	background-color: rgba(0, 0, 0, 0.3);
 	border-radius: 0.9vh;
-	padding: 1vh;
+	padding: 0.5vh;
 	color: black;
 }
 
 .slider-lable{
 	display: block;
 	position: relative;
-	float: right;
+	color: white;
+	left: 0.8vh;
+	font-size: 1.2vh;
+	font-weight: bold;
+}
+
+.slider-text{
+	line-height: 0;
+	color: gray;
+	left: 0.8vh;
+	position: relative;
+	font-size: 1vh;
+	top: -0.vh;
+	font-weight: bold;
+}
+
+.slider-link{
+	position: relative;
+	color: yellow;
+	top: 2.6vh;
+	right: 11.6vh;
+	font-size: 1vh;
+	font-weight: bold;
 }
 
 .image-slider-block{
+	float: left;
 	width: 15vh;
 	border-radius: 0.8vh;
+	height: 9vh;
 }
 
 @media screen and (max-device-width: 1000px) {
