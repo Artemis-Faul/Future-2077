@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 body {
 	font-family: 'Roboto', sans-serif;
@@ -100,6 +100,8 @@ a{
     background-position-y: -4px;
     background-position-x: -3px;
 }
+
+
 /*end Menu*/
 
 
@@ -122,10 +124,9 @@ a{
 /*Main-block*/
 
 .main-block{
-	display: block;
 	width: 100%;
 	height: 100vh;
-	background: url("../images/main-img.jpg") center;
+	background: url("../images/img-index/main-img.jpg") center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -144,6 +145,7 @@ a{
 	margin-left: 12.479638vh; 
 	display: inline-block;
 	line-height: 10vh;
+	text-transform: uppercase;
 }
 
 .main-title2{
@@ -156,7 +158,9 @@ a{
 	padding: 1.5082956259426847vh;
 	margin-left: 11.273002vh; 
 	font-size: 3.3182503770739067vh;
+	line-height: 4vh;
 }
+
 
 .scroll-container::-webkit-scrollbar { width: 0; }
 
@@ -171,14 +175,14 @@ a{
 	margin-top: 1vh;
 	overflow-y: scroll;
 	height: 50vh;
-	width: 41vh;
+	width: 48vh;
 	margin-left: 17vh;
 	color: white;
 }
 
 .slider-block{
 	margin-top: 1vh;
-	display: inline-block;
+	display: block;
 	width: 40vh;
 	height: 10vh;
 	background-color: rgba(0, 0, 0, 0.3);
@@ -187,18 +191,11 @@ a{
 	color: black;
 }
 
-.slider-block-info{
-	text-align: left;
-	display: inline-block;
-	width: 22vh;
-}
-
-.slider-block-info a{
-	display: block;
-}
-
 .slider-lable{
+	display: block;
+	position: relative;
 	color: white;
+	left: 0.8vh;
 	font-size: 1.2vh;
 	font-weight: bold;
 }
@@ -206,31 +203,28 @@ a{
 .slider-text{
 	line-height: 0;
 	color: gray;
+	left: 0.8vh;
+	position: relative;
 	font-size: 1vh;
+	top: -0.vh;
 	font-weight: bold;
 }
 
 .slider-link{
-	display: inline-block;
+	position: relative;
 	color: yellow;
-	margin-top: 1vh;
+	top: 2.6vh;
+	right: 11.6vh;
 	font-size: 1vh;
 	font-weight: bold;
 }
 
-.image-slider-block1{
-	display: inline-block;
-}
-
 .image-slider-block{
+	float: left;
 	width: 15vh;
 	border-radius: 0.8vh;
 	height: 9vh;
 }
 
-@media screen and (max-device-width: 1000px) {
-	.scroll-container{
-	margin-left: 13vh;
-}
 
 /*end Main-block*/
