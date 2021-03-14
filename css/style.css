@@ -134,14 +134,14 @@ a{
 	margin-top: 1vh;
 	overflow-y: scroll;
 	height: 50vh;
-	width: 48vh;
+	width: 41vh;
 	margin-left: 17vh;
 	color: white;
 }
 
 .slider-block{
 	margin-top: 1vh;
-	display: block;
+	display: inline-block;
 	width: 40vh;
 	height: 10vh;
 	background-color: rgba(0, 0, 0, 0.3);
@@ -150,11 +150,14 @@ a{
 	color: black;
 }
 
+.slider-block-info{
+	text-align: left;
+	display: inline-block;
+	width: 22vh;
+}
+
 .slider-lable{
-	display: block;
-	position: relative;
 	color: white;
-	left: 0.8vh;
 	font-size: 1.2vh;
 	font-weight: bold;
 }
@@ -162,24 +165,21 @@ a{
 .slider-text{
 	line-height: 0;
 	color: gray;
-	left: 0.8vh;
-	position: relative;
 	font-size: 1vh;
-	top: -0.vh;
 	font-weight: bold;
 }
 
 .slider-link{
-	position: relative;
+	display: inline-block;
 	color: yellow;
-	top: 2.6vh;
-	right: 11.6vh;
+	margin-top: 1vh;
 	font-size: 1vh;
 	font-weight: bold;
 }
 
 .image-slider-block{
-	float: left;
+	margin-top: -6.6vh;
+	margin-right: 0.5vh;
 	width: 15vh;
 	border-radius: 0.8vh;
 	height: 9vh;
@@ -189,6 +189,8 @@ a{
     .bg-text{
 	    display: inline-block;
 	}
+	.scroll-container{
+	margin-left: 13vh;
 }
 
 /*end Main-block*/
