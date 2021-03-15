@@ -204,7 +204,7 @@ a{
 }
 
 .slider-text{
-	line-height: 0;
+	display: inline-block;
 	color: gray;
 	font-size: 1vh;
 	font-weight: bold;
@@ -223,6 +223,7 @@ a{
 }
 
 .image-slider-block{
+	margin-top: -6.2vh;
 	width: 15vh;
 	border-radius: 0.8vh;
 	height: 9vh;
