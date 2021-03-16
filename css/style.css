@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
 
-<<<<<<< Updated upstream
+
 @font-face {
     font-family: 'Bahnschrift';
-    src: url('../fonts/Bahnschrift.ttf') format('truetype'); /* Chrome < 4, Legacy iOS */
+    src: url('./fonts/Bahnschrift.ttf') format('truetype'); /* Chrome < 4, Legacy iOS */
 }
-=======
->>>>>>> Stashed changes
+
 
 body {
 	font-family: 'Bahnschrift', sans-serif;
