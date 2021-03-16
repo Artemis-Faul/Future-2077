@@ -47,23 +47,32 @@ a{
 }
 
 .menu-elem:hover{
-	border: 2px solid #fff1015c;
-	border-radius: 0px;
+	
+	background-color: rgb(71 74 81 / 36%);
+
+	border: 1px solid rgb(71 74 81 / 0%);
+
+	border-radius: 8px;
+
 	line-height: 3.61991vh;
 }
 
+
 .menu-elem:hover::after {
 	content: attr(data-title);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+	text-shadow: 1px 1px 2px black, 0 0 1em black;
 	z-index: 1;
 	display: block;
 	width: 14.607843vh;
-	margin-top: 0.53092vh;
-	margin-left: 4.97737556561086vh;
-	background: rgb(0 0 0 / 66%);
-	padding: 0.7541478129713424vh 1.5082956259426847vh;
-	border-radius: 1.5082956259426847vh;
+	margin-top: -2.23092vh;
+	margin-left: 3.97737556561086vh;
+	background: rgb(71 74 81 / 96%);
+	padding: 0.541478129713424vh 1.5082956259426847vh;
+	border-radius: .8082956259426847vh;
 	line-height: 2.5vh;
 	font-weight: 500;
+	color: white;
 	text-transform: uppercase;
 }
 
@@ -112,8 +121,11 @@ a{
 }
 
 .container-center{
+	display: flex;
 	max-width: 170.43740573152337vh;
 	margin: 0 auto;
+	flex-direction: column;
+	justify-content: space-around;
 }
 
 /* end Constants*/
@@ -144,19 +156,31 @@ a{
 	margin-left: 12.479638vh; 
 	display: inline-block;
 	line-height: 10vh;
+	text-shadow: 1px 1px 6px black, 0 0 1em black;
+
 }
 
 .main-title2{
 	color: #fff100;
+
 }
 
 .bg-text{
+	flex: 1 2 18vh;
 	color: white;
 	display: block;
 	padding: 1.5082956259426847vh;
-	margin-left: 11.273002vh; 
+	/* margin-left: 11.273002vh; */
 	font-size: 3.3182503770739067vh;
 	line-height: 4vh;
+}
+
+.main-container {
+	margin-left: 17vh;
+	flex-basis: 41vh;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-start;
 }
 
 
@@ -172,11 +196,14 @@ a{
 }
 
 .scroll-container{
+	max-width: 41vh;
+	flex: 2 1 41vh;
+	flex-grow: 3;
 	margin-top: 1vh;
 	overflow-y: scroll;
 	height: 50vh;
 	width: 41vh;
-	margin-left: 17vh;
+	
 	color: white;
 }
 
@@ -236,9 +263,17 @@ a{
 		max-width: 70vh;
 	}
 
+	.main-container{
+		flex-direction: column;
+		margin-left: 13vh;
+	}
+
+	.bg-text{
+		flex: 1 2 10vh;
+	}	
+
 @media screen and (max-width: 767px){
 	.scroll-container{
-		margin-left: 13vh;
 	}
 
 	.slider-block {
