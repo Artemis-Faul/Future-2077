@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
 
+@font-face {
+    font-family: 'Bahnschrift';
+    src: url('../fonts/Bahnschrift.ttf') format('truetype'); /* Chrome < 4, Legacy iOS */
+}
+
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Bahnschrift', sans-serif;
 	font-weight: 300;
 	font-size: 2vh;
 	line-height: 2vh;
