@@ -24,7 +24,7 @@ a{
 }
 
 .nav{
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
@@ -33,6 +33,7 @@ a{
     display: block;
     height: 100%;
     background: #000000b8;
+    z-index: 100;
 }
 
 .menu-elem{
@@ -140,8 +141,10 @@ a{
 
 .main-block{
 	display: block;
-	width: 100%;
 	height: 100vh;
+}
+
+.prev-main{
 	background: url("../images/main-img.jpg") center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -289,7 +292,28 @@ a{
 		display: none;
 	}
 }
+}
 
 /*end Scroll-block*/
 
 /*end Main-block*/
+
+
+/*Science*/
+
+.science-main{
+	filter: brightness(70%);
+}
+
+.gg{
+	position: absolute;
+	top: 50%;
+	left: 14%;
+	display: block;
+	font-size: 15vh;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+/*end Science*/
+
