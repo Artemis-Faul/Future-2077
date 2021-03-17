@@ -8,7 +8,7 @@
 
 
 body {
-	font-family: 'Bahnschrift', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	font-size: 2vh;
 	line-height: 2vh;
@@ -27,6 +27,7 @@ a{
 }
 
 .nav{
+    display: none;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -37,6 +38,7 @@ a{
     height: 100%;
     background: #000000b8;
     z-index: 100;
+    /*display: none;*/
 }
 
 .menu-elem{
@@ -119,6 +121,90 @@ a{
     background-position-x: -3px;
 }
 /*end Menu*/
+
+
+/* menu for handlend  */
+
+.left-menu{
+    width: 45px;
+    height: 19px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin-left: 10px;
+    margin-top: 10px;
+    z-index: 100;
+    cursor: pointer;
+    display: none;
+}
+
+#lm-title{
+    color: #ffffff;
+    display: block;
+    font-size: 30px;
+    letter-spacing: -1px;
+    line-height: 26px;
+    margin-bottom: 1px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.lmblock{
+	cursor: pointer;
+}
+
+#lm1, #lm2, #lm3{
+    margin-top: 10px;
+    width: 85%;
+    height: 2px;
+    background: #ffffff;
+}
+
+#lm2{
+    margin-top:5px;
+}
+
+#lm3{
+    margin-top:5px;
+}
+
+#menuHand{
+    width:100vw;
+    height:100vh;
+    background:#fff;
+    position:fixed;
+    margin-top: -100vh;
+    z-index:50;
+    transition:0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menuHand ul{
+	
+}
+
+#menuHand li{
+    margin-bottom: 11vw;
+    display: flex;
+    z-index: 5;
+}
+
+#menuHand li a{
+	display: none;
+    transition: 0.75s;
+    color: #0049ce;
+    font-size: 11vw;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    text-decoration: none;
+    margin-top: 65px;
+    z-index: 5;
+}
+
+/* end menu for handlend  */
 
 
 /*Constants*/
@@ -207,7 +293,6 @@ a{
 	flex-direction: row-reverse;
 	justify-content: flex-end;
 }
-
 
 /*Scroll-block*/
 
@@ -309,7 +394,8 @@ a{
 
 	.bg-text{
 		flex: 1 2 10vh;
-	}	
+	}
+}	
 
 @media screen and (max-width: 767px){
 	.scroll-container{
@@ -322,7 +408,18 @@ a{
 	.slider-text{
 		display: none;
 	}
-}
+
+	.nav{
+		display: none;
+	}
+
+	.left-menu{
+		display: block;
+	}
+
+	.title-section {
+    	margin-left: 8vw;
+    }
 }
 
 /*end Scroll-block*/
@@ -345,11 +442,12 @@ a{
 .title-section{
 	position: absolute;
 	top: 90%;
-	left: 14%;
+	margin-left: 14vw;
 	display: block;
-	font-size: 15vh;
-	color: #fff;
+	font-size: 11vh;
 	text-transform: uppercase;
+	font-weight: 900;
+	color: #fff;
 }
 
 /*end Section*/
