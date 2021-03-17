@@ -140,6 +140,7 @@ a{
 /*Main-block*/
 
 .main-block{
+	width: 100%;
 	display: block;
 	height: 100vh;
 }
@@ -151,10 +152,12 @@ a{
 }
 
 .main-opacity{
-	background-image: linear-gradient(rgba(43, 49, 63, 0.2) 0%, rgba(12, 12, 21, 0.63) 100%);
-	height: 100%;
+	background-image: linear-gradient(rgba(43, 49, 63, 0.2) 44%, rgb(12 12 21 / 88%) 82%);
+	width: 100%;
+	height: 100vh;
 	display: flex;
 	align-items: center;
+	position: absolute;
 }
 
 .main-titleF{
@@ -299,15 +302,21 @@ a{
 /*end Main-block*/
 
 
-/*Science*/
+/*Section*/
 
-.science-main{
-	filter: brightness(70%);
+.main-opacity-section{
+	background-image: linear-gradient(rgba(43, 49, 63, 0.2) 44%, rgb(12 12 21 / 88%) 82%);
+	width: 100%;
+	height: 100vh;
+	margin-top: -100vh;
+	display: flex;
+	align-items: center;
+	position: absolute;
 }
 
-.gg{
+.title-section{
 	position: absolute;
-	top: 50%;
+	top: 90%;
 	left: 14%;
 	display: block;
 	font-size: 15vh;
@@ -315,5 +324,5 @@ a{
 	text-transform: uppercase;
 }
 
-/*end Science*/
+/*end Section*/
 
