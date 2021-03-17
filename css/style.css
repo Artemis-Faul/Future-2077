@@ -159,14 +159,15 @@ a{
     width: 85%;
     height: 2px;
     background: #ffffff;
+    box-shadow: 0 0 1px black;
 }
 
 #lm2{
-    margin-top:5px;
+    margin-top:1.2vh;
 }
 
 #lm3{
-    margin-top:5px;
+    margin-top:1.2vh;
 }
 
 #menuHand{
@@ -400,6 +401,18 @@ a{
 
 @media screen and (max-width: 767px){
 	.scroll-container{
+	}
+
+	h1.main-titleF{
+		display: none;
+	}
+
+	.description {
+		padding-right: 3vh;
+	}
+
+	.main-container{
+		margin-left: 9vh;
 	}
 
 	.slider-block {
