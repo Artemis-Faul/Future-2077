@@ -286,11 +286,12 @@ a{
 /* second Main-block */
 
 .second-main-block{
+	background-image: linear-gradient(to bottom, rgba(35, 35, 70) 30%, rgba(128, 0, 128) 100%);
 	height: 50vh;
 	display: block;
 	width: 100%;
-	background-color: rgba(60, 60, 60);
-	box-shadow: 0 3vh 30px black;
+	background-color: rgba(35, 35, 50);
+	box-shadow: 0 0 1vh black;
 }
 
 @media screen and (max-width: 1024px){
