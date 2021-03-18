@@ -152,6 +152,7 @@ a{
 
 .lmblock{
 	cursor: pointer;
+	margin-top: 3vh;
 }
 
 #lm1, #lm2, #lm3{
