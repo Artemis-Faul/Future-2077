@@ -33,7 +33,7 @@ a{
     bottom: 0;
     left: 0;
     right: 0;
-    width: 7.541478129713424vh;
+    width: 8vh;
     display: block;
     height: 100%;
     background: #000000b8;
@@ -43,18 +43,13 @@ a{
 
 .menu-elem{
 	display: block;
-	width: 5.524887vh;
-	height: 5.524887vh;
-	background: #1a2237;
+	width: 6.5vh;
+	height: 6.5vh;
 	color: #fae626;
 	border-radius: 50%;
 	text-decoration: none;
 	margin: 0 auto;
 	margin-top: 2.5641025641025643vh;
-	text-align: center;
-	letter-spacing: -0.15082956259426847vh;
-	line-height: 4.826546003016591vh;
-	/* border: 1px solid white; */
 }
 
 .menu-elem:hover{
@@ -80,40 +75,41 @@ a{
 	margin-left: 3.97737556561086vh;
 	background: rgb(71 74 81 / 96%);
 	padding: 0.541478129713424vh 1.5082956259426847vh;
-	border-radius: .8082956259426847vh;
+	border-radius: 0.8082956259426847vh;
 	line-height: 2.5vh;
 	font-weight: 500;
 	color: white;
 	text-transform: uppercase;
+	text-align: center;
 }
 
-.science{
+.menu-elem:nth-child(2){
 	background: url("../images/img-menu/science.png");
-	background-size: 115%;
-    background-repeat: no-repeat;
-    background-position-y: -4px;
-    background-position-x: -3px;
+	background-size: 120%;
+	background-repeat: no-repeat;
+	background-position-y: -4px;
+	background-position-x: -5px;
 }
 
-.human{
+.menu-elem:nth-child(3){
 	background: url("../images/img-menu/human.png");
 	background-size: cover;
 }
 
-.society{
+.menu-elem:nth-child(4){
 	background: url("../images/img-menu/society.png");
-    background-size: 93%;
-    background-repeat: no-repeat;
-    background-position-y: 5px;
-    background-position-x: 1px;
+	background-size: 103%;
+	background-repeat: no-repeat;
+	background-position-y: 0px;
+	background-position-x: 0px;
 }
 
-.other{
+.menu-elem:nth-child(5){
 	background: url("../images/img-menu/others.png");
 	background-size: cover;
 }
 
-.futurists{
+.menu-elem:nth-child(6){
 	background: url("../images/img-menu/futurists.png");
     background-size: 115%;
     background-repeat: no-repeat;
@@ -138,16 +134,21 @@ a{
     display: none;
 }
 
-#lm-title{
+.lm-title{
     color: #ffffff;
     display: block;
-    font-size: 30px;
-    letter-spacing: -1px;
-    line-height: 26px;
-    margin-bottom: 1px;
+    font-size: 4.1vh;
+    line-height: 4vh;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     text-decoration: none;
+    margin-left: 1.5vh;
+    margin-top: 1vh;
+}
+
+.hand{
+	margin-left: 0vh;
+    margin-top: 0vh;
 }
 
 .lmblock{
@@ -225,19 +226,20 @@ a{
 	justify-content: space-around;
 }
 
-/* end Constants*/
-
-
-/*Main-block*/
-
 .main-block{
 	width: 100%;
 	display: block;
 	height: 100vh;
 }
 
+/* end Constants*/
+
+
+/*Main-block*/
+
 .prev-main{
-	background: url("../images/main-img.jpg") center;
+	background: url("../images/main-img.jpg");
+	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -406,10 +408,6 @@ a{
 	.scroll-container{
 	}
 
-	h1.main-titleF{
-		display: none;
-	}
-
 	.description {
 		padding-right: 3vh;
 	}
@@ -422,11 +420,9 @@ a{
     	width: 30vh;
 	}
 
-	.slider-text{
-		display: none;
-	}
-
-	.nav{
+	.nav,
+	.slider-text,
+	.main-titleF{
 		display: none;
 	}
 
@@ -468,3 +464,11 @@ a{
 }
 
 /*end Section*/
+
+
+.main-science{
+	background: url("../images/img-section/sience-prev.jpg");
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
