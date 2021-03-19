@@ -38,7 +38,6 @@ a{
     height: 100%;
     background: #000000b8;
     z-index: 100;
-    /*display: none;*/
 }
 
 .menu-elem{
@@ -218,14 +217,6 @@ a{
 	margin: 0 auto;
 }
 
-.container-center{
-	display: flex;
-	max-width: 170.43740573152337vh;
-	margin: 0 auto;
-	flex-direction: column;
-	justify-content: space-around;
-}
-
 .main-block{
 	width: 100%;
 	display: block;
@@ -253,6 +244,14 @@ a{
 	position: absolute;
 }
 
+.container-center{
+	display: flex;
+	max-width: 170.43740573152337vh;
+	margin: 0 auto;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
 .main-titleF{
 	color: #ed008c;
 	font-size: 10.653092vh;
@@ -273,7 +272,6 @@ a{
 .bg-text{
 	margin-bottom: 0.8vh;
 	color: white;
-	/* margin-left: 11.273002vh; */
 	font-size: 3.3182503770739067vh;
 	line-height: 4vh;
 }
@@ -298,7 +296,7 @@ a{
 	justify-content: flex-end;
 }
 
-/*Scroll-block*/
+	/*Scroll-block*/
 
 .scroll-container::-webkit-scrollbar { width: 0; }
 
@@ -372,6 +370,11 @@ a{
 	height: 9vh;
 }
 
+	/*end Scroll-block*/
+
+/*end Main-block*/
+
+
 /* second Main-block */
 
 .second-main-block{
@@ -385,6 +388,9 @@ a{
 	box-shadow: 0 0 1vh black;
 }
 
+/* second Main-block */
+
+/* media */
 @media screen and (max-width: 1024px){
 	.container-center{
 		max-width: 70vh;
@@ -435,22 +441,9 @@ a{
     }
 }
 
-/*end Scroll-block*/
+/* end media */
 
-/*end Main-block*/
-
-
-/*Section*/
-
-.main-opacity-section{
-	background-image: linear-gradient(rgba(43, 49, 63, 0.2) 44%, rgb(12 12 21 / 88%) 82%);
-	width: 100%;
-	height: 100vh;
-	margin-top: -100vh;
-	display: flex;
-	align-items: center;
-	position: absolute;
-}
+/*Section const*/
 
 .title-section{
 	position: absolute;
@@ -463,8 +456,10 @@ a{
 	color: #fff;
 }
 
-/*end Section*/
+/*end Section conts*/
 
+
+/*Section main-img*/
 
 .main-science{
 	background: url("../images/img-section/sience-prev.jpg");
@@ -472,3 +467,5 @@ a{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+/*Section main-img*/
