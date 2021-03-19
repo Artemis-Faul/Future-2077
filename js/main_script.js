@@ -19,6 +19,7 @@ $(".left-menu").click(function(){
 		}, 500);
 		$("#menuHand li a").css({"display": "block"});
 		$("#menuHand").css({"display": "flex"});
+		$("#menuHand").css({"position": "fixed"});
 		$("#lm1, #lm2, #lm3").css({"background": "#ed008c"});
 		$(".lm-title").css({"color": "#ed008c"});
 		
