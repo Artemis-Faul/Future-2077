@@ -465,27 +465,27 @@ h1.news-name {
 .section-container{
 	width: 100%;
 	max-width: 181vh;
-	margin-left: 8vh;
 }
 
 .subsection-block{
+	height: 100%;
 	padding-top: 8vh;
 	margin-bottom: -4vh;
 	background: black;
-	height: 100%;
+	margin-left: 9vh;
 }
 
 .name-subsection{
 	display: block;
 	font-size: 7vh;
-	color: #ed008c;
+	color: #fff100;
 	font-weight: 600;
 	padding: 3vh 12vh;
 }
 
 .subsection-block ul{
 	margin-top: 1vh;
-	margin-left: 19vh;
+	margin-left: 18vh;
 	list-style: circle;
 }
 
@@ -493,7 +493,11 @@ h1.news-name {
 	text-decoration: none;
 	display: block;
 	color: #fff;
-	font-size: 2.5vh;
+	font-size: 2.7vh;
+}
+
+.href-article:hover{
+	color: #ed008c;
 }
 
 .subsection-block li{
