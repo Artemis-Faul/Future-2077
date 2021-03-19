@@ -11,7 +11,6 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	font-size: 2vh;
-	line-height: 2vh;
 }
 
 
@@ -52,13 +51,9 @@ a{
 }
 
 .menu-elem:hover{
-	
 	background-color: rgb(71 74 81 / 36%);
-
 	border: 1px solid rgb(71 74 81 / 0%);
-
 	border-radius: 8px;
-
 	line-height: 3.61991vh;
 }
 
@@ -236,7 +231,7 @@ a{
 }
 
 .main-opacity{
-	background-image: linear-gradient(rgba(43, 49, 63, 0.2) 44%, rgb(12 12 21 / 88%) 82%);
+	background-image: linear-gradient(rgba(43, 49, 63, 0.2) 57%, rgb(0 0 0) 101%);
 	width: 100%;
 	height: 100vh;
 	display: flex;
@@ -296,6 +291,7 @@ a{
 	justify-content: flex-end;
 }
 
+
 	/*Scroll-block*/
 
 .scroll-container::-webkit-scrollbar { width: 0; }
@@ -342,6 +338,7 @@ a{
 	color: white;
 	font-size: 1.2vh;
 	font-weight: bold;
+	line-height: 2vh;
 }
 
 .slider-text{
@@ -349,6 +346,7 @@ a{
 	color: gray;
 	font-size: 1vh;
 	font-weight: bold;
+	line-height: 2vh;
 }
 
 .slider-link{
@@ -389,6 +387,89 @@ a{
 }
 
 /* second Main-block */
+
+
+/*Section const*/
+
+.title-section{
+	position: absolute;
+	top: 73%;
+	margin-left: 14vw;
+	display: block;
+	font-size: 11vh;
+	text-transform: uppercase;
+	font-weight: 900;
+	color: #fff;
+}
+
+.section{
+	width: 100%;
+	background: black;
+}
+
+.section-container{
+	width: 100%;
+	max-width: 181vh;
+	margin-left: 8vh;
+}
+
+.subsection-block{
+	padding-top: 8vh;
+	margin-bottom: -4vh;
+	background: black;
+	height: 100%;
+}
+
+.name-subsection{
+	display: block;
+	font-size: 7vh;
+	color: #ed008c;
+	font-weight: 600;
+	padding: 3vh 12vh;
+}
+
+.subsection-block ul{
+	margin-top: 1vh;
+	margin-left: 19vh;
+	list-style: circle;
+}
+
+.href-article{
+	text-decoration: none;
+	display: block;
+	color: #fff;
+	font-size: 2.5vh;
+}
+
+.subsection-block li{
+	list-style-type: square
+}
+
+/*end Section conts*/
+
+
+/*Section main-img*/
+
+.main-science{
+	background: url("../images/img-section/sience-prev.jpg");
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Section main-img*/
+
+
+/*Footer*/
+
+.footer{
+	width: 100%;
+	height: 15vh;
+	background: #000;
+}
+
+/*end Footer*/
+
 
 /* media */
 @media screen and (max-width: 1024px){
@@ -439,33 +520,14 @@ a{
 	.title-section {
     	margin-left: 8vw;
     }
+
+    .section-container{
+    	margin-left: -8vh;
+    }
+
+    .name-subsection {
+    	font-size: 5vh;
+    }
 }
 
 /* end media */
-
-/*Section const*/
-
-.title-section{
-	position: absolute;
-	top: 90%;
-	margin-left: 14vw;
-	display: block;
-	font-size: 11vh;
-	text-transform: uppercase;
-	font-weight: 900;
-	color: #fff;
-}
-
-/*end Section conts*/
-
-
-/*Section main-img*/
-
-.main-science{
-	background: url("../images/img-section/sience-prev.jpg");
-	background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-/*Section main-img*/
