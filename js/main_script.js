@@ -39,14 +39,28 @@ $(".left-menu").click(function(){
 	counter++;
 })
 
+const mediaQuery = window.matchMedia('(height: 812px)')
+
+
 $(window).scroll(function(){
 		   var st = $(this).scrollTop();
-		   if (st > scrollPos){
-		   	 $(".left-menu").css({"transition": "0.7s"});
-		     $(".left-menu").css({"margin-top": "18vh"});
-		   } else {
-		   	  $(".left-menu").css({"transition": "0.7s"});
-		      $(".left-menu").css({"margin-top": "1vh"});
-		   }
+		   if (mediaQuery.matches) {
+			  if (st > scrollPos){
+			   	 $(".left-menu").css({"transition": "0.7s"});
+			     $(".left-menu").css({"margin-top": "10vh"});
+			   } else {
+			   	  $(".left-menu").css({"transition": "0.7s"});
+			      $(".left-menu").css({"margin-top": "1vh"});
+			   }
+			}else {
+			  if (st > scrollPos){
+			   	 $(".left-menu").css({"transition": "0.7s"});
+			     $(".left-menu").css({"margin-top": "2vw"});
+			   } else {
+			   	  $(".left-menu").css({"transition": "0.7s"});
+			      $(".left-menu").css({"margin-top": "1vh"});
+			   }
+			}
 		   scrollPos = st;
 		});
+
