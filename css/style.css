@@ -116,13 +116,12 @@ a{
 /* menu for handlend  */
 
 .left-menu{
-    width: 45px;
-    height: 19px;
+    width: 6vh;
     position: fixed;
     top: 0px;
     left: 0px;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-left: 1vh;
+    margin-top: 1vh;
     z-index: 100;
     cursor: pointer;
     display: none;
@@ -147,7 +146,7 @@ a{
 
 .lmblock{
 	cursor: pointer;
-	margin-top: 3vh;
+	margin-top: 2.5vh;
 }
 
 #lm1, #lm2, #lm3{
@@ -167,14 +166,13 @@ a{
 }
 
 #menuHand{
-    width:100vw;
-    height:100vh;
+    width: 102vw;
+    height: 0vh;
     background:#fff;
-    position:fixed;
-    margin-top: -100vh;
+    margin-top: -150vh;
     z-index:50;
     transition:0.5s;
-    display: flex;
+    display: none;
     position: fixed;
     align-items: center;
     justify-content: center;
