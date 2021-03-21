@@ -442,6 +442,7 @@ h1.news-name {
 }
 
 .news-button:hover{
+	display: block;
 	background-color: white;
 	color: black;
 	text-shadow: 0 0 1px black;
@@ -599,6 +600,12 @@ h1.news-name {
 	border: 1px solid white;
 	color: #fff;
 	text-decoration: none;
+}
+
+.sub-link:hover{
+	background-color: white;
+	color: black;
+	text-shadow: 0 0 1px black;
 }
 
 .sience-sect-grid .sect-hrefs{
