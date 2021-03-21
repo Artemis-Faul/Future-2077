@@ -578,6 +578,49 @@ h1.news-name {
 /*end Footer*/
 
 
+/* ARTICLE  */
+
+.main-article-block{
+	width: 100%;
+	height: 70vh;
+
+}
+
+.preview-img{
+	object-fit: cover;
+	height: 70vh;
+	width: 100%;
+
+}
+
+.article-news {
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin-left: 10vh;
+}
+
+.article-text-block {
+	display: flex;
+	background-color: black;
+	width: 100%;
+	height: 50vh;
+}
+
+.text-columns {
+	margin-top: 3vh;
+	display: flex;
+	margin-left: 10vh;
+}
+
+.text-column {
+	font-size: 1.7vh;
+	margin-left: 2vh;
+	display: block;
+	color: white;
+}
+/* end ARTICLE*/
+
 /* media */
 @media screen and (max-width: 1024px){
 	.container-center{
