@@ -64,3 +64,14 @@ $(window).scroll(function(){
 		   		scrollPos = st;
 		});
 
+// if $(".sect-img-grid").hover(function(){
+// 	$(".hide-sect-href").css({"transition": "0.5s"});
+// 	$(".hide-sect-href").css({"color": "#fff"});
+// })
+
+ $( ".sect-img-block-grid" ).hover(function(){
+ 	$(".hide-sect-href").css({"color": "#fff"});
+    }, function(){ 
+    $(".hide-sect-href").css({"transition": "0.5s"});
+ 	$(".hide-sect-href").css({"color": "transparent"}); 
+  });
