@@ -771,6 +771,14 @@ h1.news-name {
 	line-height: 2.6vh;
 }
 
+
+.article-video {
+	color: white;
+	margin-left: 11vh;
+	margin-top: 5vh;
+	padding-right: 4vh;
+}
+
 /* end ARTICLE*/
 
 /* media */
@@ -842,7 +850,8 @@ h1.news-name {
 	}
 
 	.central-article-img-block,
-	.article-paragraph {
+	.article-paragraph,
+	.article-video {
 		margin-left: 7vh;
 		padding-right: 5vh;
 	}
