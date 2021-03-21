@@ -44,7 +44,7 @@ const mediaQuery = window.matchMedia('(height: 812px)')
 
 $(window).scroll(function(){
 		   var st = $(this).scrollTop();
-		   if (mediaQuery.matches) {
+		   if (mediaQuery.matches && $(".left-menu").hasClass("main-menu")) {
 			  if (st > scrollPos){
 			   	 $(".left-menu").css({"transition": "0.7s"});
 			     $(".left-menu").css({"margin-top": "10vh"});
@@ -61,6 +61,6 @@ $(window).scroll(function(){
 			      $(".left-menu").css({"margin-top": "1vh"});
 			   }
 			}
-		   scrollPos = st;
+		   		scrollPos = st;
 		});
 
