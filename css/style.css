@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 
 @font-face {
@@ -848,13 +848,13 @@ h1.news-name {
 .organizer-main-block {
 	width: 100%;
    display: block;
-   height: 60vh;
+   height: 100vh;
 }
 
 .organizer-main-opacity {
 	background-image: linear-gradient(rgba(43, 49, 63, 0.2) 57%, rgb(0 0 0) 101%);
    width: 100%;
-   height: 61vh;
+   height: 101vh;
    z-index: 10;
    display: flex;
    align-items: center;
@@ -866,7 +866,7 @@ h1.news-name {
 	max-width: 50vh;
 	position: absolute;
    top: 87%;
-   margin-left: 14vw;
+   margin-left: 12vw;
    display: block;
    font-size: 1.9vh;
    color: rgb(200, 200, 200);
@@ -903,16 +903,43 @@ h1.news-name {
 }
 
 .organizer-main-title {
+	margin-left: 11vw;
+	top: 78%;
 	font-size: 8vh;
 	text-shadow: 0 0 10px black;
 }
 
 .transport_img {
 	background: url("../images/img-section/wallpaperflare.com_wallpaper _16.jpg");
-	background-position: center;
+	background-position: bottom;
+	background-position-y: 60%;
    background-size: cover;
    background-repeat: no-repeat;
 }
+
+#scrollme {
+	display: block;
+	position: absolute;
+	right: 48%;
+	bottom: -0.5vh;
+	width: 2.2vh;
+   height: 1.5vh;
+   margin: 0 0 0 -15px;
+}
+
+#myVideo {
+	object-fit: cover;
+	width: 100%;
+	height: 100vh;
+}
+
+.on-video {
+	position: absolute;
+   left: 0;
+   top: 190vh;
+   height: 101vh;
+}
+
 
 /* end article organizer */
 
@@ -935,6 +962,27 @@ h1.news-name {
 	.bg-text{
 		flex: 1 2 10vh;
 	}
+
+	.organizer-main-block {
+		height: 40vh;
+	}
+
+	.organizer-main-opacity {
+		height: 41vh;
+	}
+
+	.organizer-main-title {
+		top: 67%;
+		font-size: 6vh;
+		margin-left: 13vw;
+	}
+
+	.main-title-description {
+		top: 83%;
+		max-width: 55vh;
+		margin-left: 14vw;
+	}
+
 }	
 
 
@@ -1116,6 +1164,8 @@ h1.news-name {
 		margin-left: 8vh;
 		padding-right: 2vh;
 		top: 82%;
+		font-size: 3.4vw;
+		line-height: 4vw;
 	}
 
 	.the-best {
