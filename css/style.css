@@ -215,7 +215,7 @@ a{
 .main-block{
 	width: 100%;
 	display: block;
-	height: 100vh;
+	height: 60vh;
 }
 
 /* end Constants*/
@@ -233,7 +233,7 @@ a{
 .main-opacity{
 	background-image: linear-gradient(rgba(43, 49, 63, 0.2) 57%, rgb(0 0 0) 101%);
 	width: 100%;
-	height: 100%;
+	height: 61%;
 	z-index: 10;
 	display: flex;
 	align-items: center;
@@ -494,6 +494,7 @@ h1.news-name {
 	position: absolute;
 	top: 73%;
 	margin-left: 14vw;
+	/* margin-top: 53vh; */
 	display: block;
 	font-size: 11vh;
 	text-transform: uppercase;
@@ -579,15 +580,18 @@ h1.news-name {
 
 .section-grid {
     display: grid;
-    grid-template-columns: 23% 23% 23% 23%;
+    grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 35vh 35vh;
-    margin-left: 8%;
+    margin-left: 6%;
+    margin-top: 3%;
+    border: 1px solid #fff;
 }
 
 .sience-sect-grid{
 	grid-column: 1 / 3;
 	grid-row: 1 / 3;
 	background: #000;
+	/* border: 1px solid #fff; */
 }
 
 .section-grid h1{
