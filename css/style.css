@@ -268,20 +268,23 @@ a{
 
 .bg-text{
 	margin-bottom: 0.8vh;
+	margin-top: -0.8vh;
 	color: white;
-	font-size: 3.3182503770739067vh;
+	font-size: 2.3182503770739067vh;
 	line-height: 4vh;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
 .description {
-	margin-top: 1vh;
 	max-width: 47vh;
-	padding: 1vh;
+	padding:  0 1vh 1vh 0;
 	margin-left: 6vh;
 	color: white;
 	flex: 1 2 18vh;
 	text-shadow: 1px 1px 6px black, 0 0 1em black;
 	display: block;
+	margin-bottom: 2vh;
 }
 
 .main-container {
@@ -300,16 +303,18 @@ a{
 
 .scroll-lable{
 	margin-top: 4vh;
-	margin-left: 16vh;
 	color: white;
-	font-size: 3vh;
+	font-size: 2.5vh;
+	text-shadow: 0 0 6px black;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
 .scroll-container{
 	max-width: 41vh;
 	flex: 2 1 41vh;
 	flex-grow: 3;
-	margin-top: 1vh;
+
 	overflow-y: scroll;
 	height: 55vh;
 	width: 41vh;
@@ -340,7 +345,7 @@ a{
 	display: block;
 	margin-top: -4px;
 	color: white;
-	font-size: 1.4vh;
+	font-size: 1.45vh;
 	font-weight: bold;
 	line-height: 2vh;
 }
@@ -356,13 +361,28 @@ a{
 }
 
 .slider-link{
-	text-shadow: 0 0 6px black;
-	display: block;
-	color: yellow;
-	margin-top: 1vh;
-	font-size: 1.15vh;
-	font-weight: bold;
+	border-radius: 0.2vh;
+	box-shadow: 0 0 2px black;
+   margin-top: 0.7vh;
+   font-size: 1.3vh;
+   padding-top: 0.45vh;
+   text-align: center;
+   color: white;
+   height: 2.3vh;
+   max-width: 9.2vh;
+   display: block;
+   border: 1px solid white;
+   text-decoration: none;
+   text-transform: uppercase;
 }
+
+.slider-link:hover{
+	display: block;
+	background-color: white;
+	color: black;
+	text-shadow: 0 0 1px black;
+}
+
 
 .image-slider-block{
 
@@ -377,6 +397,22 @@ a{
 }
 
 	/*end Scroll-block*/
+
+
+.the-best {
+	color: white;
+	padding-left: 13vh;
+	padding-top: 5vh;
+	padding-bottom: 1vh;
+}
+
+.the-best h1 {
+	text-transform: uppercase;
+   font-size: 4.5vh;
+   margin-bottom: 2vh;
+   font-weight: bold;
+   line-height: 2.6vh;
+}
 
 /*end Main-block*/
 
@@ -414,6 +450,7 @@ a{
 h3.news-type {
 	text-transform: uppercase;
 	font-size: 1.3vh;
+	text-shadow: 0 0 4px black;
 }
 
 h1.news-name {
@@ -797,6 +834,80 @@ h1.news-name {
 
 /* end ARTICLE*/
 
+
+/* article organizer */
+
+.organizer-main-block {
+	width: 100%;
+   display: block;
+   height: 60vh;
+}
+
+.organizer-main-opacity {
+	background-image: linear-gradient(rgba(43, 49, 63, 0.2) 57%, rgb(0 0 0) 101%);
+   width: 100%;
+   height: 61vh;
+   z-index: 10;
+   display: flex;
+   align-items: center;
+   position: absolute;
+}
+
+.main-title-description {
+	text-shadow: 0 0 6px black;
+	max-width: 50vh;
+	position: absolute;
+   top: 87%;
+   margin-left: 14vw;
+   display: block;
+   font-size: 1.9vh;
+   color: rgb(200, 200, 200);
+}
+
+.not-first-news {
+	box-shadow: none;
+}
+
+.organizer-preview {
+
+}
+
+.organizer-news {
+	margin-top: -18vh;
+   left: 0;
+   top: 0;
+   margin-left: 14vh;
+}
+
+.higher {
+	height: 80vh;
+}
+
+.higher-contained {
+	margin-top: -27vh;
+}
+
+.orginizer-news-button {
+	position: relative;
+	z-index: 20;
+	box-sizing: border-box;
+	outline: 1px solid white;
+}
+
+.organizer-main-title {
+	font-size: 8vh;
+	text-shadow: 0 0 10px black;
+}
+
+.transport_img {
+	background: url("../images/img-section/wallpaperflare.com_wallpaper _16.jpg");
+	background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+/* end article organizer */
+
 /* media */
 @media screen and (max-width: 1024px){
 	.container-center{
@@ -821,10 +932,16 @@ h1.news-name {
 
 @media screen and (max-width: 767px){
 	.scroll-container{
+		margin-top: 1vh;
+	}
+
+	.scroll-lable {
+		font-size: 2.8vh;
 	}
 
 	.description {
-		padding-right: 3vh;
+		padding-right: 6vh;
+
 	}
 
 	.main-container,
@@ -841,8 +958,12 @@ h1.news-name {
 	}
 
 	.slider-link{
-		margin-top: 3.3vh;
+		margin-top: 3vh;
+		margin-left: 0.4vh;
 		font-size: 1.4vh;
+		max-width: 10vh;
+		height: 2.6vh;
+		padding-top: 0.5vh;
 	}
 
 	.article-news{
@@ -972,6 +1093,31 @@ h1.news-name {
 	.sience-sect-grid .sub-link{
 		display: none;
 	}
+
+	.organizer-news {
+		margin-left: 9vh;
+	}
+
+	.organizer-main-title {
+		font-size: 5vh;
+		margin-left: 8vh;
+	}
+
+	.main-title-description {
+		margin-left: 8vh;
+		padding-right: 2vh;
+		top: 82%;
+	}
+
+	.the-best {
+		padding-left: 9vh;
+		
+	}
+
+	.the-best h1 {
+		font-size: 3.7vh;
+	}
+
 }
 
 
