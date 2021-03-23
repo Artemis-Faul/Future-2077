@@ -331,7 +331,7 @@ a{
 	align-items: center;
 	width: 40vh;
 	height: 10vh;
-	background-color: rgba(0, 0, 0, 0.3);
+	background-color: rgba(0, 0, 0, 0.35);
 	border-radius: 0.9vh;
 	padding: 0.5vh;
 	color: black;
@@ -346,8 +346,8 @@ a{
 	text-transform: uppercase;
 	text-shadow: 0 0 5px black;
 	display: block;
-	margin-top: -4px;
-	color: white;
+	margin-top: -0.5vh;
+	color: yellow;
 	font-size: 1.45vh;
 	font-weight: bold;
 	line-height: 2vh;
@@ -364,26 +364,28 @@ a{
 }
 
 .slider-link{
-	border-radius: 0.2vh;
+	border-radius: 0.3vh;
 	box-shadow: 0 0 2px black;
    margin-top: 0.7vh;
    font-size: 1.3vh;
-   padding-top: 0.45vh;
+   padding-top: 0.48vh;
    text-align: center;
    color: white;
    height: 2.3vh;
    max-width: 9.2vh;
    display: block;
-   border: 1px solid white;
+   border: 1px solid rgba(255, 255, 255, 0.9);
    text-decoration: none;
    text-transform: uppercase;
+   background-color: rgba(0, 0, 0, 0.15);
 }
 
 .slider-link:hover{
 	display: block;
 	background-color: white;
-	color: black;
 	text-shadow: 0 0 1px black;
+	border-color: white;
+	color: black;
 }
 
 
@@ -925,6 +927,13 @@ h1.news-name {
 	width: 2.2vh;
    height: 1.5vh;
    margin: 0 0 0 -15px;
+
+   opacity: 0.984519; 
+   transform: translate3d(0px, -39.112px, 0px);
+
+   animation-duration: 2.9s;
+   animation-name: slidein;
+   animation-iteration-count: infinite;
 }
 
 #myVideo {
@@ -938,6 +947,31 @@ h1.news-name {
    left: 0;
    top: 190vh;
    height: 101vh;
+   background-image: linear-gradient(rgba(43, 49, 63, 0.2) 67%, rgb(0 0 0) 101%);
+}
+
+
+@keyframes slidein {
+
+	from {
+		margin-bottom: 1.2vh;
+		opacity: 0.1;
+	}
+
+	30% {
+		opacity: 0.97
+	}
+
+
+	60% {
+		opacity: 0;
+		margin-bottom: -0.5vh;
+	}
+
+
+	to {
+		opacity: 0;
+	}
 }
 
 
@@ -981,6 +1015,10 @@ h1.news-name {
 		top: 83%;
 		max-width: 55vh;
 		margin-left: 14vw;
+	}
+
+	#scrollme {
+		display: none;
 	}
 
 }	
