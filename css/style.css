@@ -155,8 +155,8 @@ a{
    width: 85%;
    height: 2px;
    background: #ffffff;
-   display: block;/* Ãƒâ€˜Ã‚ÂÃƒâ€˜Ã¢â‚¬Å¡Ãƒâ€˜Ã¢â€šÂ¬ÃƒÂÃ‚Â¾Ãƒâ€˜Ã¢â‚¬Â¡ÃƒÂÃ‚Â½Ãƒâ€˜Ã¢â‚¬Â¹ÃƒÂÃ‚Â¹ Ãƒâ€˜Ã‚ÂÃƒÂÃ‚Â»ÃƒÂÃ‚ÂµÃƒÂÃ‚Â¼ÃƒÂÃ‚ÂµÃƒÂÃ‚Â½Ãƒâ€˜Ã¢â‚¬Å¡ ÃƒÂÃ‚Â² ÃƒÂÃ‚Â±ÃƒÂÃ‚Â»ÃƒÂÃ‚Â¾Ãƒâ€˜Ã¢â‚¬Â¡ÃƒÂÃ‚Â½Ãƒâ€˜Ã¢â‚¬Â¹ÃƒÂÃ‚Â¹ */
-  	transition: all 0.3s;/* ÃƒÂÃ‚Â¿ÃƒÂÃ‚Â»ÃƒÂÃ‚Â°ÃƒÂÃ‚Â²ÃƒÂÃ‚Â½ÃƒÂÃ‚Â¾Ãƒâ€˜Ã‚ÂÃƒâ€˜Ã¢â‚¬Å¡Ãƒâ€˜Ã…â€™ ÃƒÂÃ‚Â°ÃƒÂÃ‚Â½ÃƒÂÃ‚Â¸ÃƒÂÃ‚Â¼ÃƒÂÃ‚Â°Ãƒâ€˜Ã¢â‚¬Â ÃƒÂÃ‚Â¸ÃƒÂÃ‚Â¸ */
+   display: block;
+   transition: all 0.3s;
 }
 
 #lm2{
@@ -1210,7 +1210,6 @@ img {
 	  position: relative;
 	  margin-top: -31.5vh;
 	  margin-left: -1vh;
-	  z-index: 5;
 	}
 
 	.main-listing {
@@ -1287,6 +1286,20 @@ img {
 	.sect-hrefs{
 		margin-top: 8vh;
 		z-index: 5;
+	}
+
+	.sect-href-article{
+		text-decoration: none;
+		display: block;
+		color: #fff;
+		font-size: 2.5vh;
+		padding: 1vh 1vh 0vh 3vh;
+		z-index: 5;
+		position: relative;
+	}
+
+	.last-sect-href{		
+		height: 8vh;
 	}
 
 	.sect-href-article{
@@ -1486,7 +1499,6 @@ img {
 
 	.sect-hrefs{
 		margin-top: 9vh;
-		z-index: 5;
 	}
 
 	.sect-href-article{
@@ -1510,7 +1522,7 @@ img {
 
 @media screen and (min-width: 950px){
 	.last-sect-href{
-		margin-top: 9.5vh;
+		margin-top: 11vh;
 	}
 }
 
