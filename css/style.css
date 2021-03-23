@@ -155,7 +155,6 @@ a{
    width: 85%;
    height: 2px;
    background: #ffffff;
-   box-shadow: 0 0 1px black;
    display: block;/* Ã‘ÂÃ‘â€šÃ‘â‚¬ÃÂ¾Ã‘â€¡ÃÂ½Ã‘â€¹ÃÂ¹ Ã‘ÂÃÂ»ÃÂµÃÂ¼ÃÂµÃÂ½Ã‘â€š ÃÂ² ÃÂ±ÃÂ»ÃÂ¾Ã‘â€¡ÃÂ½Ã‘â€¹ÃÂ¹ */
   	transition: all 0.3s;/* ÃÂ¿ÃÂ»ÃÂ°ÃÂ²ÃÂ½ÃÂ¾Ã‘ÂÃ‘â€šÃ‘Å’ ÃÂ°ÃÂ½ÃÂ¸ÃÂ¼ÃÂ°Ã‘â€ ÃÂ¸ÃÂ¸ */
 }
@@ -341,15 +340,18 @@ a{
 }
 
 .slider-block-info{
+	position: relative;
+	display: block;
 	width: 22vh;
 	margin-left: 1vh;
+	height: 100%;
 }
 
 .slider-lable{
 	text-transform: uppercase;
 	text-shadow: 0 0 5px black;
 	display: block;
-	margin-top: -0.5vh;
+	margin-top: 0vh;
 	color: yellow;
 	font-size: 1.45vh;
 	font-weight: bold;
@@ -371,13 +373,18 @@ a{
 .slider-link{
 	border-radius: 0.3vh;
 	box-shadow: 0 0 2px black;
-   margin-top: 0.7vh;
    font-size: 1.3vh;
    padding-top: 0.48vh;
    text-align: center;
+   vertical-align: bottom;
+
+   position: absolute;
+   top: 75%;
+   padding-left: 1vh;
+   padding-right: 1vh;
    color: white;
    height: 2.3vh;
-   max-width: 9.2vh;
+   max-width: 10.7vh;
    display: block;
    border: 1px solid rgba(255, 255, 255, 0.9);
    text-decoration: none;
@@ -994,18 +1001,18 @@ img {
 }
 
 .first{
-  		transform: translate(0, 0vh) rotate(45deg);
-  		transform-origin: left top;
-	}
-/* ÃÂ°ÃÂ½ÃÂ¸ÃÂ¼ÃÂ°Ã‘â€ ÃÂ¸Ã‘Â Ã‘ÂÃ‘â‚¬ÃÂµÃÂ´ÃÂ½ÃÂµÃÂ¹ ÃÂ¿ÃÂ¾ÃÂ»ÃÂ¾Ã‘ÂÃÂºÃÂ¸ */
-	.middle{
-	  transform: scale(0);
-	}
-/* ÃÂ°ÃÂ½ÃÂ¸ÃÂ¼ÃÂ°Ã‘â€ ÃÂ¸Ã‘Â ÃÂ½ÃÂ¸ÃÂ¶ÃÂ½ÃÂµÃÂ¹ ÃÂ¿ÃÂ¾ÃÂ»ÃÂ¾Ã‘ÂÃÂºÃÂ¸ */
-	.last{
-	  transform: translate(-20%, -1000%) rotate(-45deg);
-	  transform-origin: right bottom;
-	}
+  	transform: translate(0.9vw, 0vh) rotate(45deg);
+  	transform-origin: left top;
+}
+
+.middle{
+	transform: scale(0);
+}
+
+.last{
+  	transform: translate(-0.5vw, -2.8vw) rotate(-45deg);
+	transform-origin: right bottom;
+}
 
 
 @keyframes slidein {
@@ -1105,16 +1112,16 @@ img {
 	}
 
 	.slider-block-info{
-		height: 6vh;
 	}
 
 	.slider-link{
-		margin-top: 3vh;
-		margin-left: 0.4vh;
+		top: 65%;
+		line-height: 1.9vw;
+		margin-left: 0vh;
 		font-size: 1.4vh;
-		max-width: 10vh;
+		max-width: 11vh;
 		height: 2.6vh;
-		padding-top: 0.5vh;
+		padding-top: 5.5%;
 	}
 
 	.article-news{
