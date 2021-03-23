@@ -151,11 +151,13 @@ a{
 }
 
 #lm1, #lm2, #lm3{
-    margin-top: 10px;
-    width: 85%;
-    height: 2px;
-    background: #ffffff;
-    box-shadow: 0 0 1px black;
+   margin-top: 10px;
+   width: 85%;
+   height: 2px;
+   background: #ffffff;
+   box-shadow: 0 0 1px black;
+   display: block;/* строчный элемент в блочный */
+  	transition: all 0.3s;/* плавность анимации */
 }
 
 #lm2{
@@ -959,6 +961,20 @@ h1.news-name {
    height: 101vh;
    background-image: linear-gradient(rgba(43, 49, 63, 0.2) 67%, rgb(0 0 0) 101%);
 }
+
+.first{
+  		transform: translate(0, 0vh) rotate(45deg);
+  		transform-origin: left top;
+	}
+/* анимация средней полоски */
+	.middle{
+	  transform: scale(0);
+	}
+/* анимация нижней полоски */
+	.last{
+	  transform: translate(-20%, -1000%) rotate(-45deg);
+	  transform-origin: right bottom;
+	}
 
 
 @keyframes slidein {
