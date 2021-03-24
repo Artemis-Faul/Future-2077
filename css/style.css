@@ -604,8 +604,12 @@ h1.news-name {
 	font-size: 11vh;
 	text-transform: uppercase;
 	font-weight: 900;
-	color: #fff100;
-	text-shadow: 1px 1px 6px black, 0 0 1em black;
+	/* color: #fff100; */
+	color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to bottom, #fff100, #ed008c);
+	text-shadow: 4px 1px 0px white, 0 0 1em black;
 }
 
 .sub-section{
@@ -762,7 +766,7 @@ img {
   line-height: 0;
   overflow: hidden;
   height: 100%;
-  filter: brightness(50%);
+  filter: brightness(80%);
 }
 
 .location-image img {
@@ -820,7 +824,7 @@ img {
 .sect-href-article{
 	text-decoration: none;
 	display: block;
-	color: #fff;
+	color: #c3c3c3;
 	font-size: 2.5vh;
 	padding: 1vh 1vh 0vh 3vh;
 	z-index: 8;
@@ -1416,7 +1420,7 @@ img {
 	.sect-href-article{
 		text-decoration: none;
 		display: block;
-		color: #fff100;
+		color: #c3c3c3;
 		font-size: 2.3vh;
 		padding: 1vh 2vh 0vh 2vh;
 		z-index: 5;
@@ -1533,7 +1537,7 @@ img {
 	}
 
 	.grid-container h1{
-	  color: #ed008c;
+	  color: #ffffff;
 	  font-weight: 700;
 	  font-size: 174%;
 	  padding: 3vh;
@@ -1622,7 +1626,6 @@ img {
 	.sect-href-article{
 		text-decoration: none;
 		display: block;
-		color: #fff;
 		font-size: 2.5vh;
 		padding: 1vh 1vh 0vh 3vh;
 		z-index: 5;
