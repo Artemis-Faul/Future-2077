@@ -313,6 +313,7 @@ h1{
 /*Main-block*/
 
 .prev-main{
+	height: 100vh;
 	background: url("../images/main-img.jpg");
 	background-position: center;
 	background-size: cover;
@@ -1156,7 +1157,7 @@ img {
 .scrollme {
 	display: block;
 	position: absolute;
-	right: 48%;
+	right: 50%;
 	bottom: -0.5vh;
 	width: 2.2vh;
    height: 1.5vh;
@@ -1184,7 +1185,7 @@ img {
    position: absolute;
    left: 0;
    top: 0;
-   height: 101vh;
+   height: 100vh;
    background-image: linear-gradient(rgba(43, 49, 63, 0.2) 72%, rgb(0 0 0) 101%);
 }
 
@@ -1237,6 +1238,7 @@ img {
 
 /* media */
 @media screen and (max-width: 1024px){
+
 	.container-center{
 		max-width: 100vh;
 	}
@@ -1290,6 +1292,10 @@ img {
 
 	.scrollme-organizer {
 		display: none;
+	}
+
+	.prev-main{
+		height: 100%;
 	}
 
 }	
