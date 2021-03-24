@@ -67,6 +67,11 @@ $(window).scroll(function(){
 		   		scrollPos = st;
 		});
 
+// var h = $('.location-listing').css('width');
+// if (h.find( "h1" )>=400){
+// 	$( "li.item-ii" ).find( "li" ).css( "background-color", "red" );
+
+// 	$(this).css({'background-position' :'50% 50%'});
 
 // if $(".sect-img-grid").hover(function(){
 // 	$(".hide-sect-href").css({"transition": "0.5s"});
