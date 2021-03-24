@@ -627,9 +627,9 @@ img {
 
 .grid-container {
   display: grid;
-  grid-template-columns: minmax(26%,1fr) minmax(26.5%,1fr)  minmax(26.5%,1fr) minmax(26.5%,1fr);
+  grid-template-columns: minmax(23%,1fr) minmax(23%,1fr)  minmax(23%,1fr) minmax(23%,1fr);
   grid-template-rows: 35vh 35vh;
-  margin-left: -2.5%;
+  margin-left: 4.5%;
   margin-top: 3%;
   grid-gap: 0.5vh;
 }
@@ -718,7 +718,7 @@ img {
 }
 
 .sect-hrefs{
-	margin-top: 14vh;
+	margin-top: 15vh;
 	z-index: 5;
 }
 
