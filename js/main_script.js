@@ -58,7 +58,7 @@ $(window).scroll(function(){
 			}else {
 			  if (st > scrollPos){
 			   	 $(".left-menu").css({"transition": "0.7s"});
-			     $(".left-menu").css({"margin-top": "2vw"});
+			     $(".left-menu").css({"margin-top": "7vw"});
 			   } else {
 			   	  $(".left-menu").css({"transition": "0.7s"});
 			      $(".left-menu").css({"margin-top": "1vh"});
