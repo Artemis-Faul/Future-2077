@@ -100,8 +100,11 @@ a{
 }
 
 .menu-elem:nth-child(5){
-	background: url("../images/img-menu/others.png");
-	background-size: cover;
+	background: url("../images/img-menu/space.png");
+	background-size: 77%;
+	background-repeat: no-repeat;
+	background-position-y: 6px;
+	background-position-x: 0px;
 }
 
 .menu-elem:nth-child(6){
