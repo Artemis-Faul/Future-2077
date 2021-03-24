@@ -771,14 +771,15 @@ img {
 
 .disclaimer {
 	bottom: 0%;
+	display: flex;
 	position: absolute;
-   color: #8d8f97;
-   font-size: 1.5vh;
-   border-top: 1px solid gray;
-   height: 35px;
-   width: 100%;
-   text-align: center;
-   padding-top: 20px;
+	color: #8d8f97;
+	font-size: 1.5vh;
+	border-top: 1px solid gray;
+	height: 10vh;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
 }
 
 
@@ -1218,7 +1219,7 @@ img {
 	  padding: 3vh;
 	  position: relative;
 	  margin-top: -31.5vh;
-	  margin-left: -1vh;
+	  text-align: center;
 	}
 
 	.main-listing {
@@ -1229,6 +1230,7 @@ img {
 
 	.main-listing h1{
 	  font-size: 6vh;
+	  text-align: center;
 	  margin-top: -43vh;
 	}
 
@@ -1237,7 +1239,7 @@ img {
 	}
 
 	.main-listing .sect-hrefs{
-	  margin-top: 20vh;
+	  margin-top: 18vh;
 	}
 
 	.location-listing {
@@ -1293,8 +1295,9 @@ img {
 	}
 
 	.sect-hrefs{
-		margin-top: 8vh;
+		margin-top: 5vh;
 		z-index: 5;
+		margin-left: 4vh;
 	}
 
 	.sect-href-article{
@@ -1315,14 +1318,14 @@ img {
 		text-decoration: none;
 		display: block;
 		color: #fff;
-		font-size: 2.5vh;
+		font-size: 2.3vh;
 		padding: 1vh 1vh 0vh 3vh;
 		z-index: 5;
 		position: relative;
 	}
 
 	.last-sect-href{
-		margin-top: 5vh;
+		margin-top: 2vh;
 	}
 
 	.title-section {
@@ -1428,7 +1431,7 @@ img {
 	.grid-container h1{
 	  color: #ed008c;
 	  font-weight: 700;
-	  font-size: 4.3vh;
+	  font-size: 4.2vh;
 	  padding: 3vh;
 	  position: relative;
 	  margin-top: -31.5vh;
@@ -1443,7 +1446,7 @@ img {
 
 	.main-listing h1{
 	  font-size: 7vh;
-	  margin-top: -62vh;
+	  margin-top: -40vh;
 	}
 
 	.main-listing .sect-href-article{
@@ -1451,7 +1454,7 @@ img {
 	}
 
 	.main-listing .sect-hrefs{
-	  margin-top: 37vh;
+	  margin-top: 16vh;
 	}
 
 	.location-listing {
