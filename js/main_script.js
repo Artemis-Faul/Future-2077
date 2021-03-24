@@ -24,6 +24,7 @@ $(".left-menu").click(function(){
 		$("#menuHand").css({"height": "100%"});
 		$("#lm1, #lm2, #lm3").css({"background": "#ed008c"});
 		$(".lm-title").css({"color": "#ed008c"});
+		
 	}else{
 		// $("#menuHand").css({"margin-top": "-100vh"});
 		setTimeout(function(){
@@ -31,9 +32,9 @@ $(".left-menu").click(function(){
 			$("#menuHand li a").css({"margin-top": "60px"});
 			$("#menuHand li a").css({"display": "none"});
 			setTimeout(function(){
-				$(".lm12").css({"background": "#ffffff"});
+				
 				$(".lm-title").css({"color": "#ffffff"});
-		}, 0);
+		}, 300);
 			$("#menuHand li a").css({"display": "none"});
 			// $("#menuHand").css({"display": "none"});
 		}, 200);
