@@ -29,8 +29,11 @@ $(".left-menu").click(function(){
 		setTimeout(function(){
 			$("#menuHand").css({"height": "0vh"});
 			$("#menuHand li a").css({"margin-top": "60px"});
-			$("#lm1, #lm2, #lm3").css({"background": "#ffffff"});
-			$(".lm-title").css({"color": "#ffffff"});
+			$("#menuHand li a").css({"display": "none"});
+			setTimeout(function(){
+				$(".lm12").css({"background": "#ffffff"});
+				$(".lm-title").css({"color": "#ffffff"});
+		}, 0);
 			$("#menuHand li a").css({"display": "none"});
 			// $("#menuHand").css({"display": "none"});
 		}, 200);

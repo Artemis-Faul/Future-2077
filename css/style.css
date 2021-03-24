@@ -148,7 +148,7 @@ a{
     margin-top: 0vh;
 }
 
-.lmblock{
+/*.lmblock{
 	cursor: pointer;
 	margin-top: 2.5vh;
 }
@@ -168,7 +168,90 @@ a{
 
 #lm3{
     margin-top:1.2vh;
+}*/
+
+/* button starting stylings ------------------------------- */
+.lmblock {
+  color: #ccc;
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 5.5vh;
+  height:5.5vh;
+  font-size: 0;
+  cursor: pointer;
+  transition: background 0.3s;
 }
+.lmblock:focus {
+  outline: none;
+}
+
+/* inner span stylings ------------------------------- */
+.lmblock div {
+	margin-top: 1vh;
+   	width: 100%;
+   	background: #ffffff;
+   	display: block;
+	transition: all 0.3s;
+  	display: block;
+  	position: absolute;
+  	top: 2vh;
+  	height: 3px;
+
+}
+.lmblock div::before, .lmblock div::after {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #ffffff;
+  content: "";
+}
+.lmblock div::before {
+  top: -1.5vh;
+}
+.lmblock div::after {
+  bottom: -1.5vh;
+}
+
+.lmblock.toggle-hamburger__animx div {
+  -webkit-transition: background 0s 0.3s;
+  transition: background 0s 0.3s;
+}
+.lmblock.toggle-hamburger__animx div::before, .lmblock.toggle-hamburger__animx div::after {
+	transition-duration: 0.3s, 0.3s;
+    transition-delay: 0.3s, 0s;
+}
+.lmblock.toggle-hamburger__animx div::before {
+  transition-property: top, transform;
+}
+.lmblock.toggle-hamburger__animx div::after {
+  transition-property: bottom, transform;
+}
+
+/* when menu open: */
+.lmblock.toggle-hamburger__animx.is-active div {
+  background: none;
+}
+.lmblock.toggle-hamburger__animx.is-active div::before, .toggle-hamburger.toggle-hamburger__animx.is-active div::after {
+  	background-color: rgb(237, 0, 140);
+	transition-delay: 0s, 0.3s;
+}
+.lmblock.toggle-hamburger__animx.is-active div::before {
+  top: 0;
+  background-color: rgb(237, 0, 140);
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.lmblock.toggle-hamburger__animx.is-active div::after {
+  background-color: rgb(237, 0, 140);
+  bottom: 0;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+
 
 #menuHand{
     width: 102vw;
