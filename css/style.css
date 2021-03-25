@@ -929,15 +929,23 @@ img {
 /*Footer*/
 
 .footer{
+	display: flex;
 	position: relative;
 	width: 100%;
-	height: 15vh;
+	height: 25vh;
 	background: #000;
+	justify-content: center;
+}
+
+.footer-info {
+	width: 30vh;
 }
 
 .icon {
 	width: 5vh;
+	height: 5vh;
 	object-fit: contain;
+	left: 10%;
 }
 
 .disclaimer {
@@ -947,7 +955,7 @@ img {
 	color: #8d8f97;
 	font-size: 1.5vh;
 	border-top: 1px solid gray;
-	height: 10vh;
+	height: 8vh;
 	width: 100%;
 	align-items: center;
 	justify-content: center;
