@@ -801,14 +801,14 @@ img {
   /* margin-top: 48vh; */
 }
 
-
-
-
-
 .location-listing {
   position: relative;
 }
 
+/*.location-listing-space{
+	grid-column: 3 /5;
+}
+*/
 .location-image {
   line-height: 0;
   overflow: hidden;
@@ -826,7 +826,7 @@ img {
   font-size: 1.5em;
   font-weight: bold;
   text-decoration: none;
-  z-index: 1;
+  z-index: 2;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -846,6 +846,13 @@ img {
 	position: relative;
 }
 
+.main-listing-space{
+	grid-column: 1 / 4;
+}
+
+.grid-container-space{
+	grid-template-rows: 40vh 40vh;
+}
 
 .main-listing:hover .location-title {
   opacity: 1;
@@ -1654,10 +1661,6 @@ img {
 
 	.main-listing .sect-hrefs{
 	  margin-top: 6vh;
-	}
-
-	.location-listing {
-	  position: relative;
 	}
 
 	.location-image {
