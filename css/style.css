@@ -1474,6 +1474,7 @@ img {
 	  position: relative;
 	  margin-top: -8vh;
 	  text-align: end;
+	  line-height: 130%;
 	}
 
 	.main-listing {
@@ -1485,7 +1486,7 @@ img {
 	.main-listing h1{
 	  font-size: 200%;
 	  text-align: end;
-	  margin-top: -11vh;
+	  margin-top: -15vh;
 	}
 
 	.location-listing {
