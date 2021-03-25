@@ -1424,7 +1424,7 @@ img {
 	}
 
 	.main-listing h1{
-	  font-size: 5vh;
+	  font-size: 200%;
 	  text-align: end;
 	  margin-top: -11vh;
 	}
@@ -1492,15 +1492,20 @@ img {
 
 	.grid-container-human h1{
 		font-size: 120%;
-		margin-top: -37vh;
-		height: 21vh;
+   		margin-top: -8vh;
 	}
 
 	.title-section {
-    	margin-left: 8vw;
-    	font-size: 14vw;
+    	margin-left: 16vw;
+    	font-size: 280%;
     	margin-top: 9vw;
     }
+
+    .title-section-society{
+    	margin-left: 15%;
+    	font-size: 11vw;
+    }
+
 
     .section-container{
     	margin-left: -8vh;
