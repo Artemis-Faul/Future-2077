@@ -432,7 +432,7 @@ h1{
 	/* flex: 2 1 49vh; */
 	flex-grow: 3;
 	overflow-y: scroll;
-	height: 74vh;
+	height: 76vh;
 	display: flex;
 	flex-direction: column;
 	width: 69vh;
@@ -730,7 +730,7 @@ img {
   display: grid;
   grid-template-columns: minmax(23%,1fr) minmax(23%,1fr)  minmax(23%,1fr) minmax(23%,1fr);
   grid-template-rows: 35vh 35vh;
-  margin-left: 4.5%;
+  margin-left: 8vh;
   margin-top: 3%;
   grid-gap: 0.5vh;
 }
@@ -889,6 +889,7 @@ img {
 }
 
 .footer-content{
+	padding-left: 8vh;
 	display: flex;
 	position: relative;
 	width: 100%;
@@ -914,6 +915,7 @@ img {
 }
 
 .person {
+	text-decoration: none;
 	margin-top: 1vh;
 	display: flex;
 	flex-direction: row;
@@ -937,6 +939,7 @@ img {
 }
 
 .email a {
+	margin-left: 0.4vh;
 	margin-top: 1vh;
 }
 
@@ -953,13 +956,14 @@ img {
 }
 
 .disclaimer {
+	padding-left: 5.5vh;
 	bottom: 0%;
 	display: flex;
 	position: absolute;
 	color: #8d8f97;
-	font-size: 1.5vh;
+	font-size: 1.7vh;
 	border-top: 1px solid gray;
-	height: 8vh;
+	height: 6vh;
 	width: 100%;
 	align-items: center;
 	justify-content: center;
@@ -1264,6 +1268,7 @@ img {
 /* end article organizer */
 
 /* media */
+
 @media screen and (max-width: 1024px){
 
 	.container-center{
@@ -1336,6 +1341,30 @@ img {
 
 	.scrollme {
 		display: none;
+	}
+
+	.footer {
+		height: auto;
+		max-height: 50vh;
+		flex-direction: column;
+	}
+
+	.footer-content {
+		flex-direction: column;
+		height: auto;
+		max-height: 50vh;
+	}
+
+	.footer-info {
+		margin-top: 2vh;
+	}
+
+	.disclaimer {
+		position: relative;
+	}
+
+	.email {
+		margin-bottom: 2vh;
 	}
 
 }	
@@ -1636,6 +1665,15 @@ img {
 		padding-left: 4vh;
 	}
 
+	.footer-content {
+		padding-left: 0;
+		padding-top: 2vh;
+	}
+
+	.disclaimer {
+		padding-left: 0;
+	}
+
 }
 
 @media (max-width: 1024px) and (min-width: 768px){
@@ -1744,6 +1782,18 @@ img {
 		top: 67%;
 		font-size: 6vh;
 		margin-left: 13vw;
+	}
+}
+
+@media screen  and (max-width: 1200px){
+		.main-container {
+		flex-direction: column;
+		align-items: center;
+		margin-left: 9vh;
+	}
+
+		.prev-main{
+		height: 100%;
 	}
 }
 
