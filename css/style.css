@@ -941,6 +941,7 @@ img {
 .email a {
 	margin-left: 0.4vh;
 	margin-top: 1vh;
+	margin-right: 1vh;
 }
 
 .person p {
@@ -949,10 +950,16 @@ img {
 }
 
 .icon {
-	width: 5vh;
-	height: 5vh;
-	object-fit: contain;
+	display: none;
+}
+
+.vk {
 	left: 10%;
+	width: 6vh;
+	height: 5vh;
+	background-image: url("../images/footer/VK_Monochrome_Logo_t.png");
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 .disclaimer {
