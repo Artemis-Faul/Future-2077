@@ -928,17 +928,71 @@ img {
 
 /*Footer*/
 
+
 .footer{
 	display: flex;
 	position: relative;
 	width: 100%;
-	height: 25vh;
+	height: 30vh;
 	background: #000;
 	justify-content: center;
 }
 
+.footer-content{
+	display: flex;
+	position: relative;
+	width: 100%;
+	height: 22vh;
+	background: #000;
+	justify-content: center;
+	align-items: center;
+}
+
 .footer-info {
-	width: 30vh;
+	margin-top: 7vh;
+	height: 100%;
+	color: white;
+	width: 33vh;
+	margin-left: 2vh;
+}
+
+.footer-info p {
+	color: #ed008c;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 2.5vh;
+}
+
+.person {
+	margin-top: 1vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.email {
+	color: white;
+	display: block;
+	width: 100%
+	margin-top: 1vh;
+}
+
+.email p {
+	color: #ed008c;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 2.5vh;
+}
+
+.email a {
+	margin-top: 1vh;
+}
+
+.person p {
+	margin-left: 1.5vh;
+	color: white;
 }
 
 .icon {
@@ -1297,7 +1351,8 @@ img {
 	}
 
 	.bg-text{
-		flex: 1 2 10vh;
+		text-align: center;
+		font-size: 3.7vh;
 	}
 
 	.organizer-main-block {
@@ -1327,6 +1382,10 @@ img {
 
 	.prev-main{
 		height: 100%;
+	}
+
+	.scrollme {
+		display: none;
 	}
 
 }	
@@ -1659,11 +1718,16 @@ img {
 	}
 
 	.main-title-description {
+		display: none;
 		margin-left: 8vh;
 		padding-right: 2vh;
 		top: 82%;
 		font-size: 3.4vw;
 		line-height: 4vw;
+	}
+
+	.higher {
+		height: 60vh;
 	}
 
 	.the-best {
