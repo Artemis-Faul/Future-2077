@@ -383,7 +383,7 @@ h1{
 	color: rgb(230, 230, 230);
 	margin-top: 1vh;
 	text-shadow: 0 0 6px black;
-	font-size: 3vh;
+	font-size: 1.65vw;
 	/* text-align: justify; */
 }
 
@@ -1314,6 +1314,11 @@ img {
 		min-width: 0vh;
 	}
 
+	.description p {
+		font-size: 3vh;
+	}
+
+
 	.scroll-container {
 		max-width: 58.5vh;
 	}
@@ -1426,6 +1431,10 @@ img {
 		flex-direction: column;
 		align-items: center;
 		margin-left: 9vh;
+	}
+
+	.description p {
+		font-size: 3vh;
 	}
 
 	.scroll-container {
