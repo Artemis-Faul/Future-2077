@@ -1025,6 +1025,10 @@ img {
 	width: 100%;
 }
 
+.article-text-block p{
+	letter-spacing: 1px;
+}
+
 .text-columns {
 	padding-right: 3vh;
 	margin-top: 3vh;
