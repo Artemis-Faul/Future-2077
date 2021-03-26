@@ -466,7 +466,7 @@ h1{
 .image-slider-img{
 	box-shadow: 0 0 4px black;
 	display: block;
-	width: 26vh;
+	width: 15vw;
 	border-radius: 0.8vh;
 	height: 17vh;
 }
@@ -1301,7 +1301,7 @@ img {
 	}
 
 	.scroll-container {
-		max-width: 60vh;
+		max-width: 58.5vh;
 	}
 
 	.slider-block {
@@ -1405,16 +1405,44 @@ img {
 		margin-bottom: 2vh;
 	}
 
-}	
+}
+
+@media screen  and (max-width: 1200px){
+		.main-container {
+		flex-direction: column;
+		align-items: center;
+		margin-left: 9vh;
+	}
+
+	.scroll-container {
+		max-width: 82vw;
+	}
+
+	.slider-block {
+		max-width: 82vw;
+	}
+
+	.slider-link {
+		padding-top: 1vh;
+		font-size: 2.5vw;
+	}
+
+	.image-slider-img {
+		width: 26vh;
+	}
+
+		.prev-main{
+		height: 100%;
+	}
+}
 
 @media screen and (max-width: 767px){
 	.scroll-container{
 		display: flex;
 		flex-direction: column;
 		margin-top: 1vh;
-		max-width: 47vh;
+		max-width: 80vw;
 		margin-right: 3vh;
-		width: auto;
 		flex: none;
 		height: 65vh;
 
@@ -1422,10 +1450,16 @@ img {
 
 	.scroll-lable {
 		font-size: 2.8vh;
+		padding-right: 3vh;
+		text-align: center;
 	}
 
 	.description {
 		margin-left: -0.8vh;
+	}
+
+	.description p {
+		text-align: left;
 	}
 
 	.main-container {
@@ -1436,8 +1470,8 @@ img {
 	}
 
 	.iphone {
-		padding-left: 0.4vh;
-		margin-right: 0.8vh;
+		margin-right: 3.4vh;
+		max-width: 80vw;
 		display: flex;
 		flex-direction: column;
 	}
@@ -1448,16 +1482,20 @@ img {
 
 	.slider-block {
 		display: flex;
-    	max-width: 46vh;
+    	max-width: 80vw;
     	width: auto;
     	height: 15vh;
+    	align-self: flex-end;
+    	margin-right: 3vh;
 	}
 
 	.slider-block-info{
 		display: flex;
 		flex-direction: column;
-		max-width: 24vh;
+		max-width: 33vw;
+		min-width: 33vw;
 		width: auto;
+		margin-left: 0.7vh;
 	}
 
 	.slider-text {
@@ -1470,6 +1508,7 @@ img {
 		left: 0%;
 		font-size: 1.8vh;
 		max-width: 15vh;
+		min-width: 14vh;
 		height: 3.7vh;
 		padding-top: 1.3vh;
 	}
@@ -1514,7 +1553,7 @@ img {
 	.slider-lable{
 		margin-top: 0.5vh;
 		margin-right: 0.2vh;
-		font-size: 1.6vh;
+		font-size: 3.2vw;
 		text-transform: uppercase;
 	}
 
@@ -1820,18 +1859,6 @@ img {
 		top: 67%;
 		font-size: 6vh;
 		margin-left: 13vw;
-	}
-}
-
-@media screen  and (max-width: 1200px){
-		.main-container {
-		flex-direction: column;
-		align-items: center;
-		margin-left: 9vh;
-	}
-
-		.prev-main{
-		height: 100%;
 	}
 }
 
