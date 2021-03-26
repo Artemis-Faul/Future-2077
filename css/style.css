@@ -428,7 +428,7 @@ h1{
 
 .scroll-container{
 	margin-top: 1vh;
-	max-width: 68vh;
+	max-width: 38vw;
 	/* flex: 2 1 49vh; */
 	flex-grow: 3;
 	overflow-y: scroll;
@@ -437,12 +437,17 @@ h1{
 	flex-direction: column;
 	width: 69vh;
 	color: white;
+	min-width: 45vh;
+}
+
+.iphone {
+	min-width: 45vh;
 }
 
 .slider-block{
 	margin-top: 1vh;
 	display: flex;
-	max-width: 68vh;
+	max-width: 38vw;
 	align-items: center;
 	/* width: 48vh; */
 	height: 18vh;
@@ -450,6 +455,7 @@ h1{
 	border-radius: 0.9vh;
 	padding: 0.5vh;
 	color: black;
+	min-width: 45vh;
 }
 
 .image-slider-block{
@@ -471,6 +477,7 @@ h1{
 	/* width: 26vh; */
 	margin-left: 1vh;
 	height: 100%;
+	min-width: 27vh;
 }
 
 .slider-lable{
@@ -504,8 +511,9 @@ h1{
 	text-align: center;
 	vertical-align: bottom;
 	position: absolute;
+	margin-right: 1vh;
 	top: 73%;
-	left: 59%;
+	right: -0.4vw;
 	padding-left: 1vh;
 	padding-right: 1vh;
 	color: white;
@@ -1289,14 +1297,32 @@ img {
 
 	.description {
 		margin-left: 0;
+		min-width: 0vh;
 	}
 
 	.scroll-container {
 		max-width: 60vh;
 	}
 
+	.slider-block {
+		max-width: 60vh;
+		min-width: 0vh;
+	}
+
+	.image-slider-img{
+		width: 26vh;
+		height: 17vh;
+	}
+
+	.slider-block-info{
+		min-width: 0vh;
+}
+
 	.slider-link {
 		left: 50%;
+		position: absolute;
+		margin-right: 1vh;
+		top: 73%;
 	}
 
 	.main-container {
