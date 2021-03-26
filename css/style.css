@@ -949,6 +949,7 @@ img {
 .email a {
 	margin-left: 0.4vh;
 	margin-top: 1vh;
+	margin-right: 1vh;
 }
 
 .person p {
@@ -957,10 +958,16 @@ img {
 }
 
 .icon {
-	width: 5vh;
-	height: 5vh;
-	object-fit: contain;
+	display: none;
+}
+
+.vk {
 	left: 10%;
+	width: 6vh;
+	height: 5vh;
+	background-image: url("../images/footer/VK_Monochrome_Logo_t.png");
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 .disclaimer {
@@ -1144,6 +1151,7 @@ img {
    display: flex;
    align-items: center;
    position: absolute;
+   top: 0%;
 }
 
 .main-title-description {
@@ -1203,6 +1211,12 @@ img {
 	background-position-y: 60%;
    background-size: cover;
    background-repeat: no-repeat;
+}
+
+.organizer-main-img {
+	object-fit: cover;
+	object-position: bottom;
+	top: 60%;
 }
 
 .scrollme {
