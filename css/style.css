@@ -1063,7 +1063,7 @@ img {
 }
 
 .img-with-description h1 {
-	font-size: 2vh;
+	font-size: 150%;
 	font-weight: bold;
 	margin-bottom: 1vh;
 	text-transform: uppercase;
