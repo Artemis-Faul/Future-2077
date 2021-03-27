@@ -1693,7 +1693,6 @@ img {
 	  display: grid;
 	  grid-template-columns: minmax(45%,1fr) minmax(45%,1fr);
 	  grid-template-rows: 35vh;
-	  margin-left: 4.5%;
 	  margin-top: 3%;
 	  grid-gap: 0.5vh;
 	}
