@@ -1,7 +1,7 @@
 var counter = 0;
 var scrollPos = 0;
 
-$(".left-menu").click(function(){
+$(".lmblock").click(function(){
 	if(counter % 2 == 0){
 		$("#menuHand").css({"margin-top": "0vh"});
 		setTimeout(function(){
