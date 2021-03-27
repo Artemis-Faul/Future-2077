@@ -72,7 +72,7 @@ h1{
 	margin-top: -2.23092vh;
 	margin-left: 3.97737556561086vh;
 	background: rgb(71 74 81 / 96%);
-	padding: 0.541478129713424vh 1.5082956259426847vh;
+    padding: 0.8vh 0.7vh;
 	border-radius: 0.8082956259426847vh;
 	line-height: 2.5vh;
 	font-weight: 500;
@@ -698,6 +698,14 @@ h1.news-name {
     height: 60vh;
 }
 
+
+.main-space{
+	background: url("../images/img-section/space_prev.png");
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
 /*Section main-img*/
 
 
@@ -1747,7 +1755,7 @@ img {
 
 	.organizer-main-title {
 		color: white;
-		font-size: 5vh;
+		font-size: 200%;
 		margin-left: 8vh;
 	}
 
