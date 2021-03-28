@@ -803,7 +803,7 @@ img {
 
 .main-listing h1{
   font-size: 250%;
-  margin-top: -73vh;
+  margin-top: -70.5vh;
 }
 
 .grid-container-human{
@@ -1420,7 +1420,6 @@ img {
 		margin-left: 2vh;
 		max-width: 68vh;
 	}
-
 
 	.news-main-container{
 		flex-direction: column;
