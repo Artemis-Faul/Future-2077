@@ -359,6 +359,12 @@ h1{
 	line-height: 10vh;
 	text-shadow: 1px 1px 6px black, 0 0 1em black;
 	font-family: 'Roboto', sans-serif;
+
+	opacity: 1; 
+   transform: translate3d(0px, -39.112px, 0px);
+
+   animation-duration: 2.5s;
+   animation-name: unfading;
 }
 
 .main-title2{
@@ -1320,6 +1326,18 @@ img {
 
 	to {
 		opacity: 0;
+	}
+}
+
+@keyframes unfading {
+
+	from {
+		opacity: 0.1;
+	}
+
+
+	to {
+		opacity: 1;
 	}
 }
 
