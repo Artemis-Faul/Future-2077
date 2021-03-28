@@ -383,11 +383,12 @@ p a{
 	margin-bottom: 0.8vh;
 	/* margin-top: -0.8vh; */
 	color: #ed008c;
-	font-size: 2.8182503770739067vh;
+	font-size: 3.1182503770739067vh;
 	line-height: 4vh;
 	text-transform: uppercase;
 	font-weight: bold;
 	text-shadow: 0 0 8px black;
+	text-align: center;
 }
 
 .description p {
@@ -433,7 +434,7 @@ p a{
 .scroll-lable{
 	color: #ed008c;
 	margin-top: 4vh;
-	font-size: 2.5vh;
+	font-size: 3.1vh;
 	text-shadow: 0 0 6px black;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -806,7 +807,7 @@ img {
 
 .main-listing h1{
   font-size: 250%;
-  margin-top: -73vh;
+  margin-top: -70.5vh;
 }
 
 .grid-container-human{
@@ -1423,7 +1424,6 @@ img {
 		margin-left: 2vh;
 		max-width: 68vh;
 	}
-
 
 	.news-main-container{
 		flex-direction: column;
