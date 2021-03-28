@@ -23,6 +23,10 @@ h1{
 	text-transform: uppercase;
 }
 
+p a{
+	color: #ed008c;
+}
+
 /*Menu*/
 
 .header{
