@@ -704,22 +704,31 @@ h1.news-name {
     height: 60vh;
 }
 
+.main-human{
+	background: url("../images/img-section/human_prev.jpg");
+	background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 60vh;
+   background-position-y: 35%;
+}
+
 .main-society{
 	background: url("../images/img-section/society_prev.jpg");
 	background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 60vh;
-    background-position-y: 25%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 60vh;
+   background-position-y: 25%;
 }
 
 
 .main-space{
 	background: url("../images/img-section/space_prev.png");
 	background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 60vh;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 60vh;
 }
 
 
