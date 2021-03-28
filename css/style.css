@@ -107,7 +107,7 @@ h1{
 	background-size: 73%;
 	background-repeat: no-repeat;
 	background-position-y: 4px;
-    background-position-x: 5px;
+    background-position-x: 50%;
 }
 
 .menu-elem:nth-child(6){
@@ -115,7 +115,7 @@ h1{
     background-size: 110%;
     background-repeat: no-repeat;
     background-position-y: -4px;
-    background-position-x: -3px;
+    background-position-x: 50%;
 }
 /*end Menu*/
 
@@ -704,6 +704,15 @@ h1.news-name {
     height: 60vh;
 }
 
+.main-society{
+	background: url("../images/img-section/society_prev.jpg");
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-position-y: 25%;
+}
+
 
 .main-space{
 	background: url("../images/img-section/space_prev.png");
@@ -712,6 +721,8 @@ h1.news-name {
     background-repeat: no-repeat;
     height: 60vh;
 }
+
+
 /*Section main-img*/
 
 
