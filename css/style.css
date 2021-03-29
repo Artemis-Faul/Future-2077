@@ -888,10 +888,12 @@ img {
 	grid-template-rows: 40vh 40vh;
 }
 
+.main-listing .location-title {
+  font-size: 5vh;
+}
+
 .main-listing:hover .location-title {
   opacity: 1;
-  font-size: 5vh;
-  /* filter: brightness(60%); */
 }
 
 .main-listing:hover .location-image img {
