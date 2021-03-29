@@ -1329,6 +1329,11 @@ img {
 	top: 3%;
 }
 
+.double-title {
+	/* font-size: 4.5vw; */
+	top: 10%;
+	margin-left: 10vw;
+}
 
 
 
@@ -1494,7 +1499,6 @@ img {
 	.email {
 		margin-bottom: 2vh;
 	}
-
 }
 
 @media screen  and (max-width: 1200px){
@@ -1844,6 +1848,10 @@ img {
 		padding-left: 0;
 	}
 
+	.double-title {
+		top: 56%;
+	}
+
 }
 
 @media (max-width: 1024px) and (min-width: 768px){
@@ -1953,6 +1961,12 @@ img {
 		font-size: 6vh;
 		margin-left: 13vw;
 	}
+
+	.double-title {
+		font-size: 5vh;
+		top: 10%;
+	}
+
 }
 
 /* end media */
