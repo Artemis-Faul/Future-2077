@@ -404,7 +404,7 @@ p a{
 .description {
 	margin-top: 4.5vh;
 	border-radius: 1vh;
-	background-color: rgba(0, 0, 0, 0.4);
+	background-color: rgba(0, 0, 0, 0.6);
 	max-width: 68vh;
 	padding:  1vh 1vh 1vh 1vh;
 	margin-left: 3vh;
@@ -417,7 +417,7 @@ p a{
 }
 
 .main-container {
-	margin-top: 3vh;
+	margin-top: 5vh;
 	margin-left: 10vh;
 	flex-basis: 48vh;
 	display: flex;
@@ -465,7 +465,7 @@ p a{
 	align-items: center;
 	/* width: 48vh; */
 	height: 18vh;
-	background-color: rgba(0, 0, 0, 0.4);
+	background-color: rgba(0, 0, 0, 0.6);
 	border-radius: 0.9vh;
 	padding: 0.5vh;
 	color: black;
